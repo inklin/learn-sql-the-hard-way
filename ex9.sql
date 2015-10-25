@@ -20,7 +20,6 @@ UPDATE pet SET name = "DECEASED"
 
 SELECT * FROM pet;
 
-
 UPDATE pet SET name = "Young One" WHERE pet.name IN (
   SELECT pet.name FROM pet
   WHERE pet.age < 10
