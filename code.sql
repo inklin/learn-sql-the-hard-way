@@ -106,3 +106,6 @@ INSERT INTO pet(id, name, breed, age, dead)
   VALUES(0, "Fluffy", "Unicorn", 1500, 0);
 /* look to see the unicorn is back and older */
 SELECT * FROM pet;
+
+ALTER TABLE person ADD COLUMN height INTEGER;
+ALTER TABLE PERSON ADD COLUMN weight INTEGER;
